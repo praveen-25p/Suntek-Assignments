@@ -20,7 +20,8 @@ public:
 };
 int main()
 {
-    string a="this is a training program";
+    string a;
+    getline(cin,a);
     Solution p;
     cout<<(p.countSegments(a));
 }
